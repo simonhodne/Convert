@@ -16,7 +16,6 @@ class Tests
         Test<(double, string)>((10, "mm"), Program.ParseArgs(parseTestClutter), "PARSE TEST CLUTTER");
     }
 
-
     static void Test<T>(T expected, T actual, string description)
     {
         if(expected.Equals(actual)){
@@ -27,6 +26,4 @@ class Tests
         }
         Console.Write("\u001b[37m");
     }
-
-
 }

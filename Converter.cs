@@ -1,4 +1,3 @@
-
 static public class Converter
 {
     const double INCH_CM_RATIO = 2.54;
